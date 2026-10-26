@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact & feedback</title>
+</head>
+<body>
+    <h1 bgcolor="blue"  align="center"> Qiuck Contact & Feedback Form</h1>
+    <form>
+        <fieldset>
+            <legend>Send me a message</legend>
+            <table>
+                <tr>
+                    <td align="right">
+                  <label for="fullname"><strong>Full name:</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" id="Full name" placeholer="Enter your Full name" >
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="Email-id"> <strong>Email Address:</strong></label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <label for="your role"><strong>Your role:</strong></label>
+                    </td>
+                    <td>
+                        <select id="role">
+                            <option value="Student" >Student</option>
+                            <option value="developer" >developer</option>
+                            <option value="teacher" >teacher</option>
+                            <option value="Data scientiest" >Data scientiest</option>
+                            <option value="other">other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <strong>Rating:</strong>
+                    </td>
+                    <td>
+                        <label for="excellent" >
+                        <input type="radio" value="excellent" name="Rating" id="excellent">
+                        Excellent
+                        </label>
+                        <label for="good">
+                            <input type="radio" value="good" name="rating" id="good">
+                            Good
+                        </label>
+                        <label for="average">
+                            <input type="radio" value="average" name="rating" id="average">
+                            Average
+                        </label>
+                        <label for="nom-satisfied">
+                            <input type="radio" value="non-satisfied" name="rating" id="unsatisfied">
+                            Non-satisfied
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                 <stong>Interests:</stong>
+                    </td>
+                    <td>
+                    <label for="pure_html">
+                        <input type="checkbox" value="pure_html" name="interests" id="pure_html">
+                        Pure_html
+                    </label>
+                    <label for="page_design">
+                        <input type="checkbox" value="page_design" name="interests">
+                        Page_design
+                    </label>
+                    <label for="page_decoration">
+                        <input type="checkbox" value="page_decoration" name="interests">
+                        Interests
+
+                    </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" valign="top">
+                        <label for=" massage" ><strong>Message</strong></label>
+                    </td>
+                    <td>
+                        <textarea id="meaasge" name="message" row="5" col="6" placeholder="write your feedback or message" hight="200"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                    <button   onclick="alert('your feedback successfully submitted')">submit message</button>
+                    <button   onclick="alert('your form is clear')">clear form</button>
+
+                    </td>
+                    
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+</html>
